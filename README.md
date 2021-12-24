@@ -4,6 +4,7 @@ The program will implement a text based version of Conway's biological simulatio
 Rules for births and deaths for the Game of life.
 
 Deaths: Cells that contain a critter will have the critter die under the following conditions:
+
 Loneliness: fewer than 2 neighbors. 
 Over crowding: more than 3 neighbors.  
 Anything else (2 or 3 neighbors) results in the critter remaining alive. 
